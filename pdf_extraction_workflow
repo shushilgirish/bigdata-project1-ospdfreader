@@ -1,0 +1,18 @@
+digraph "PDF Extraction Workflow" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="PDF Extraction Workflow" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"0d0c4366ef1b4e0f814b1288b3f06d68" [label="PDF File (URL)" height=1.9 image="D:\Notheastern University\courses\Big data\updatepythonpdfreader\pythonProject1\.venv\lib\site-packages\resources/generic/storage\storage.png" shape=none]
+	"49337e6feeea4fc680634518db51b562" [label="Download PDF" height=1.9 image="D:\Notheastern University\courses\Big data\updatepythonpdfreader\pythonProject1\.venv\lib\site-packages\resources/generic/storage\storage.png" shape=none]
+	"0e732948e60b41828cd12c97381b3a94" [label="PyMuPDF - Text Extraction" height=1.9 image="D:\Notheastern University\courses\Big data\updatepythonpdfreader\pythonProject1\.venv\lib\site-packages\resources/onprem/compute\server.png" shape=none]
+	"5512ed6d25024913bdacdc7bbdb5c6c8" [label="PyMuPDF - Image Extraction" height=1.9 image="D:\Notheastern University\courses\Big data\updatepythonpdfreader\pythonProject1\.venv\lib\site-packages\resources/onprem/compute\server.png" shape=none]
+	e183a6fba0e74310af794637f600dd4b [label="Camelot - Table Extraction" height=1.9 image="D:\Notheastern University\courses\Big data\updatepythonpdfreader\pythonProject1\.venv\lib\site-packages\resources/onprem/analytics\spark.png" shape=none]
+	"67f366e273aa4405b40fca211326d4a2" [label="Save Extracted Data" height=1.9 image="D:\Notheastern University\courses\Big data\updatepythonpdfreader\pythonProject1\.venv\lib\site-packages\resources/generic/storage\storage.png" shape=none]
+	"0d0c4366ef1b4e0f814b1288b3f06d68" -> "49337e6feeea4fc680634518db51b562" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"49337e6feeea4fc680634518db51b562" -> "0e732948e60b41828cd12c97381b3a94" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"49337e6feeea4fc680634518db51b562" -> "5512ed6d25024913bdacdc7bbdb5c6c8" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"49337e6feeea4fc680634518db51b562" -> e183a6fba0e74310af794637f600dd4b [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"0e732948e60b41828cd12c97381b3a94" -> "67f366e273aa4405b40fca211326d4a2" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"5512ed6d25024913bdacdc7bbdb5c6c8" -> "67f366e273aa4405b40fca211326d4a2" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	e183a6fba0e74310af794637f600dd4b -> "67f366e273aa4405b40fca211326d4a2" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}

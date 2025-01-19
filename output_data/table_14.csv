@@ -1,0 +1,124 @@
+"3x), with default con￿gurations. The YOLO implementation",""
+"utilized was YOLOv5x6 [13]. All models were initialised us-",""
+"ing pre-trained weights from the COCO 2017 dataset.",""
+"human
+MRCNN
+FRCNN
+YOLO",""
+"R50
+R101
+R101
+v5x6",""
+"Caption
+84-89
+68.4
+71.5
+70.1
+77.7",""
+"Footnote
+83-91
+70.9
+71.8
+73.7
+77.2",""
+"Formula
+83-85
+60.1
+63.4
+63.5
+66.2",""
+"List-item
+87-88
+81.2
+80.8
+81.0
+86.2",""
+"Page-footer
+93-94
+61.6
+59.3
+58.9
+61.1",""
+"Page-header
+85-89
+71.9
+70.0
+72.0
+67.9",""
+"","Figure 5: Prediction performance (mAP@0.5-0.95) of a Mask"
+"Picture
+69-71
+71.7
+72.7
+72.0
+77.1",""
+"","R-CNN network with ResNet50 backbone trained on increas-"
+"Section-header
+83-84
+67.6
+69.3
+68.4
+74.6",""
+"","ing fractions of the DocLayNet dataset. The learning curve"
+"Table
+77-81
+82.2
+82.9
+82.2
+86.3",""
+"","￿attens around the 80% mark, indicating that increasing the"
+"Text
+84-86
+84.6
+85.8
+85.4
+88.1",""
+"","size of the DocLayNet dataset with similar data will not yield"
+"Title
+60-72
+76.7
+80.4
+79.9
+82.7",""
+"","signi￿cantly better predictions."
+"All
+82-83
+72.4
+73.5
+73.4
+76.8",""
+"to avoid this at any cost in order to have clear, unbiased baseline",""
+"numbers for human document-layout annotation. Third, we in-","paper and leave the detailed evaluation of more recent methods"
+"troduced the feature of snapping boxes around text segments to","mentioned in Section 2 for future work."
+"obtain a pixel-accurate annotation and again reduce time and e￿ort.","In this section, we will present several aspects related to the"
+"The CCS annotation tool automatically shrinks every user-drawn","performance of object detection models on DocLayNet. Similarly"
+"box to the minimum bounding-box around the enclosed text-cells","as in PubLayNet, we will evaluate the quality of their predictions"
+"for all purely text-based segments, which excludes only Table and","using mean average precision (mAP) with 10 overlaps that range"
+"Picture. For the latter, we instructed annotation sta￿ to minimise","from 0.5 to 0.95 in steps of 0.05 (mAP@0.5-0.95). These scores are"
+"inclusion of surrounding whitespace while including all graphical","computed by leveraging the evaluation code provided by the COCO"
+"lines. A downside of snapping boxes to enclosed text cells is that","API [16]."
+"some wrongly parsed PDF pages cannot be annotated correctly and",""
+"need to be skipped. Fourth, we established a way to ￿ag pages as",""
+"rejected for cases where no valid annotation according to the label","Baselines for Object Detection"
+"guidelines could be achieved. Example cases for this would be PDF","In Table 2, we present baseline experiments (given in mAP) on Mask"
+"pages that render incorrectly or contain layouts that are impossible","R-CNN [12], Faster R-CNN [11], and YOLOv5 [13]. Both training"
+"to capture with non-overlapping rectangles. Such rejected pages are","and evaluation were performed on RGB images with dimensions of"
+"not contained in the ￿nal dataset. With all these measures in place,","1025
+1025 pixels. For training, we only used one annotation in case"
+"","⇥"
+"experienced annotation sta￿ managed to annotate a single page in","of redundantly annotated pages. As one can observe, the variation"
+"a typical timeframe of 20s to 60s, depending on its complexity.","in mAP between the models is rather low, but overall between 6"
+"","and 10% lower than the mAP computed from the pairwise human"
+"5
+EXPERIMENTS","annotations on triple-annotated pages. This gives a good indication"
+"","that the DocLayNet dataset poses a worthwhile challenge for the"
+"The primary goal of DocLayNet is to obtain high-quality ML models","research community to close the gap between human recognition"
+"capable of accurate document-layout analysis on a wide variety","and ML approaches. It is interesting to see that Mask R-CNN and"
+"of challenging layouts. As discussed in Section 2, object detection","Faster R-CNN produce very comparable mAP scores,
+indicating"
+"models are currently the easiest to use, due to the standardisation","that pixel-based image segmentation derived from bounding-boxes"
+"of ground-truth data in COCO format [16] and the availability of","does not help to obtain better predictions. On the other hand, the"
+"general frameworks such as detectron2 [17]. Furthermore, baseline","more recent Yolov5x model does very well and even out-performs"
+"numbers in PubLayNet and DocBank were obtained using standard","humans on selected labels such as Text, Table and Picture. This is"
+"object detection models such as Mask R-CNN and Faster R-CNN.","not entirely surprising, as Text, Table and Picture are abundant and"
+"As such, we will relate to these object detection methods in this","the most visually distinctive in a document."

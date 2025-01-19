@@ -1,34 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="df5e1930-0075-4952-b179-e39128d2bec0" name="Changes" comment="" />
+    <list default="true" id="df5e1930-0075-4952-b179-e39128d2bec0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/downloaded.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/camelor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/imgicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pdfimage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pymupdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/requests_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tables.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/textimg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open-sourcepdfreader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/open_source_pdf_reader.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_1_img_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_1_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_2_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_img_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_3_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_4_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_5_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_6_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_7_img_1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_7_img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_7_img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_7_img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_7_img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_7_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_8_img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_8_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_9_img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_9_img_2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_9_img_3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/page_9_text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_12.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_13.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_14.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_15.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_data/table_9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pdf_extraction_workflow" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rmWFW5Mr9rTZWErtFoa3wBDd05" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.main.executor": "Run",
+    "Python.open-sourcepdfreader.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "feature__1"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.open-sourcepdfreader">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="pythonProject1" />
+      <module name="OpenSourcePDFReader" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,6 +161,113 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="open-sourcepdfreader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open-sourcepdfreader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="OpenSourcePDFReader" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.open-sourcepdfreader" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -66,17 +285,20 @@
       <option name="presentableId" value="Default" />
       <updated>1737164627051</updated>
     </task>
+    <task id="LOCAL-00001" summary="pdf reader files and diagram">
+      <option name="closed" value="true" />
+      <created>1737251802944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1737251802944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pdf reader files and diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="pdf reader files and diagram" />
   </component>
 </project>

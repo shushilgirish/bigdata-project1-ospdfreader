@@ -5,9 +5,12 @@ __pycache__/
 
 # Ignore output files and diagrams
 diagram_output/
+*.png
 output_data/
 *.png
 *.jpg
+*.csv
+*.txt
 
 # Ignore IDE-specific files (PyCharm)
 .idea/

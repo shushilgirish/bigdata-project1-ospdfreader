@@ -5,58 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df5e1930-0075-4952-b179-e39128d2bec0" name="Changes" comment="pdf reader files and diagram">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downloaded.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_1_img_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_1_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_2_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_img_9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_3_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_4_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_5_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_6_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_7_img_1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_7_img_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_7_img_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_7_img_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_7_img_5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_7_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_8_img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_8_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_9_img_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_9_img_2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_9_img_3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/page_9_text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_10.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_14.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_15.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_6.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_7.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_8.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_data/table_9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/open_source_pdf_reader.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +27,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shushilgirish"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shushilgirish&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -110,7 +59,7 @@
     "Python.open-sourcepdfreader.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature__1"
+    "git-widget-placeholder": "feature-1"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [

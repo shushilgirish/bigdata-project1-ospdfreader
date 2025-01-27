@@ -1,0 +1,10 @@
+PyMuPDF 
+camelot 
+requests
+pypdf2
+pandas
+numpy
+pdfplumber
+azure-ai-formrecognizer 
+azure-core 
+python-dotenv

@@ -1,7 +1,7 @@
 # Ignore virtual environment
 venv/
 .venv/
-.env/
+.env
 # Ignore output files and diagrams
 diagram_output/
 output_data/

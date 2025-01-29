@@ -2,6 +2,7 @@
 venv/
 .venv/
 .env
+2408.09869v5.pdf
 # Ignore output files and diagrams
 diagram_output/
 output_data/

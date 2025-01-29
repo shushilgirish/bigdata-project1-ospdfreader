@@ -32,7 +32,7 @@ def download_pdf(url, output_path):
         with open(output_path, "wb") as pdf_file:
             pdf_file.write(response.content)
         print(f"PDF downloaded successfully: {output_path}")
-        upload_file_to_s3(output_path, "downloaded.pdf")
+        upload_file_to_s3(output_path, "RawInputs/downloaded.pdf")
     else:
         raise Exception(f"Failed to download PDF. Status code: {response.status_code}")
 
@@ -44,7 +44,7 @@ def extract_text_from_pdf(file_path, output_folder):
             text_filename = os.path.join(output_folder, f"page_{page_num + 1}_text.txt")
             with open(text_filename, "w", encoding="utf-8") as text_file:
                 text_file.write(text)
-            upload_file_to_s3(text_filename, f"output_data/page_{page_num + 1}_text.txt")
+            upload_file_to_s3(text_filename, f"pdf_processing_pipeline/pdf_os_pipeline/parsed_data/page_{page_num + 1}_text.txt")
 
 def extract_images_from_pdf(file_path, output_folder):
     """Extract images from PDF and upload to S3."""
@@ -62,7 +62,7 @@ def extract_images_from_pdf(file_path, output_folder):
             image_filename = os.path.join(output_folder, f"page_{page_num + 1}_img_{img_index + 1}.{image_ext}")
             with open(image_filename, "wb") as img_file:
                 img_file.write(image_bytes)
-            upload_file_to_s3(image_filename, f"output_data/{os.path.basename(image_filename)}")
+            upload_file_to_s3(image_filename, f"pdf_processing_pipeline/pdf_os_pipeline/parsed_data/{os.path.basename(image_filename)}")
 
 def extract_tables_from_pdf(file_path, output_folder):
     """Extract tables from PDF and upload to S3."""
@@ -71,7 +71,7 @@ def extract_tables_from_pdf(file_path, output_folder):
         if table.parsing_report['accuracy'] >= 80:
             table_filename = os.path.join(output_folder, f"page_{table.page}_table.csv")
             table.to_csv(table_filename)
-            upload_file_to_s3(table_filename, f"output_data/{os.path.basename(table_filename)}")
+            upload_file_to_s3(table_filename, f"pdf_processing_pipeline/pdf_os_pipeline/parsed_data/{os.path.basename(table_filename)}")
 
 def extract_lists_from_pdf(file_path, output_folder):
     """Extract lists from PDF and upload to S3."""
@@ -84,7 +84,7 @@ def extract_lists_from_pdf(file_path, output_folder):
                 list_filename = os.path.join(output_folder, f"page_{page_num + 1}_lists.txt")
                 with open(list_filename, "w", encoding="utf-8") as list_file:
                     list_file.write("\n".join(list_lines))
-                upload_file_to_s3(list_filename, f"output_data/{os.path.basename(list_filename)}")
+                upload_file_to_s3(list_filename, f"pdf_processing_pipeline/pdf_os_pipeline/parsed_data/{os.path.basename(list_filename)}")
 
 def extract_all_from_pdf(file_path, output_folder):
     """Extract all data from a PDF and upload to S3."""

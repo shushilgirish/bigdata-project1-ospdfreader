@@ -11,6 +11,7 @@ pandas
 pdfplumber
 azure-ai-formrecognizer 
 azure-core
+azure-ai-documentintelligence
 pdfservices-sdk
 python-dotenv
 pymupdf4llm

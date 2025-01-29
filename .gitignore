@@ -2,6 +2,7 @@
 venv/
 .venv/
 .env
+output/
 2408.09869v5.pdf
 # Ignore output files and diagrams
 diagram_output/
@@ -19,6 +20,7 @@ pdf_extraction_workflow
 *.log
 *.tmp
 *.swp
+*.pdf
 python
 # Ignore OS-generated files
 .DS_Store

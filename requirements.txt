@@ -17,6 +17,5 @@ python-dotenv
 pymupdf4llm
 markitdown
 boto3
-
 llama-index
 docling
